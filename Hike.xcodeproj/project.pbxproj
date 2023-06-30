@@ -11,6 +11,14 @@
 		3E1119522A4C7476009A8EE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1119512A4C7476009A8EE5 /* ContentView.swift */; };
 		3E1119542A4C7478009A8EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1119532A4C7478009A8EE5 /* Assets.xcassets */; };
 		3E1119572A4C7478009A8EE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1119562A4C7478009A8EE5 /* Preview Assets.xcassets */; };
+		3E11195E2A4C8ACE009A8EE5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11195D2A4C8ACE009A8EE5 /* CardView.swift */; };
+		3E1119612A4C8BEA009A8EE5 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1119602A4C8BEA009A8EE5 /* BackgroundView.swift */; };
+		3E1119632A4C8E2C009A8EE5 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1119622A4C8E2C009A8EE5 /* ColorExtension.swift */; };
+		3E1119662A4CC911009A8EE5 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1119652A4CC911009A8EE5 /* CustomButtonView.swift */; };
+		3E1119682A4EB549009A8EE5 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1119672A4EB549009A8EE5 /* GradientButtonStyle.swift */; };
+		3E11196A2A4EF73D009A8EE5 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1119692A4EF73D009A8EE5 /* CustomCircleView.swift */; };
+		3E11196C2A4EF8AF009A8EE5 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11196B2A4EF8AF009A8EE5 /* MotionAnimationView.swift */; };
+		3E11196F2A4F3B82009A8EE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11196E2A4F3B82009A8EE5 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		3E1119512A4C7476009A8EE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E1119532A4C7478009A8EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1119562A4C7478009A8EE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E11195D2A4C8ACE009A8EE5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3E1119602A4C8BEA009A8EE5 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		3E1119622A4C8E2C009A8EE5 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3E1119652A4CC911009A8EE5 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		3E1119672A4EB549009A8EE5 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		3E1119692A4EF73D009A8EE5 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		3E11196B2A4EF8AF009A8EE5 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		3E11196E2A4F3B82009A8EE5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				3E11194F2A4C7476009A8EE5 /* HikeApp.swift */,
-				3E1119512A4C7476009A8EE5 /* ContentView.swift */,
+				3E11196D2A4F3B6D009A8EE5 /* Screen */,
+				3E1119642A4C8E48009A8EE5 /* Utils */,
+				3E11195F2A4C8BD0009A8EE5 /* Component */,
 				3E1119532A4C7478009A8EE5 /* Assets.xcassets */,
 				3E1119552A4C7478009A8EE5 /* Preview Content */,
 			);
@@ -65,6 +83,36 @@
 				3E1119562A4C7478009A8EE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E11195F2A4C8BD0009A8EE5 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3E11195D2A4C8ACE009A8EE5 /* CardView.swift */,
+				3E1119692A4EF73D009A8EE5 /* CustomCircleView.swift */,
+				3E11196B2A4EF8AF009A8EE5 /* MotionAnimationView.swift */,
+				3E1119652A4CC911009A8EE5 /* CustomButtonView.swift */,
+				3E1119602A4C8BEA009A8EE5 /* BackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		3E1119642A4C8E48009A8EE5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3E1119622A4C8E2C009A8EE5 /* ColorExtension.swift */,
+				3E1119672A4EB549009A8EE5 /* GradientButtonStyle.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3E11196D2A4F3B6D009A8EE5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3E1119512A4C7476009A8EE5 /* ContentView.swift */,
+				3E11196E2A4F3B82009A8EE5 /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +186,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1119522A4C7476009A8EE5 /* ContentView.swift in Sources */,
+				3E11196A2A4EF73D009A8EE5 /* CustomCircleView.swift in Sources */,
+				3E11195E2A4C8ACE009A8EE5 /* CardView.swift in Sources */,
+				3E11196C2A4EF8AF009A8EE5 /* MotionAnimationView.swift in Sources */,
+				3E1119612A4C8BEA009A8EE5 /* BackgroundView.swift in Sources */,
+				3E11196F2A4F3B82009A8EE5 /* SettingsView.swift in Sources */,
+				3E1119662A4CC911009A8EE5 /* CustomButtonView.swift in Sources */,
+				3E1119682A4EB549009A8EE5 /* GradientButtonStyle.swift in Sources */,
 				3E1119502A4C7476009A8EE5 /* HikeApp.swift in Sources */,
+				3E1119632A4C8E2C009A8EE5 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
